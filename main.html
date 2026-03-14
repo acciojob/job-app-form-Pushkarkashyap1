@@ -1,16 +1,65 @@
+
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+<title>Job Application Form</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+<form method="post">
+
+<!-- Name -->
+<label for="name">Name</label>
+<input type="text " id="name" required>
+<br><br>
+
+<!-- Email -->
+<label for="email">Email</label>
+<input type="email" id="email" required>
+<br><br>
+
+<!-- Gender -->
+<label>Gender</label>
+<input type="radio"  name="gender" required>
+<label for="male">Male</label>
+
+<input type="radio"  name="gender">
+<label for="female">Female</label>
+<br><br>
+
+<!-- Laptop Brands -->
+<label for="laptop">Laptop Brands</label>
+<select id="laptop">
+<option>Apple</option>
+<option>Asus</option>
+<option>HP</option>
+</select>
+<br><br>
+
+<!-- Age -->
+<label for="age">Age</label>
+<input type="number" id="age" required>
+<br><br>
+
+<!-- Date of Birth -->
+<label for="dob">Date of Birth</label>
+<input type="date" id="dob" required>
+<br><br>
+
+<!-- Password -->
+<label for="password">Password</label>
+<input type="password" id="password" required>
+<br><br>
+
+<!-- Portfolio URL -->
+<label for="portfolio">Portfolio URL</label>
+<input type="url" id="portfolio">
+<br><br>
+
+<!-- Submit -->
+<button type="submit">Submit</button>
+
+</form>
 
 </body>
-
 </html>
+
